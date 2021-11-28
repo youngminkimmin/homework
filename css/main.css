@@ -1,0 +1,31 @@
+#main { width: 1920px; height: auto; position: relative; }
+
+#main .slogan { position: absolute; z-index: 2; top: 70%; left: 3%; }
+
+#main .slogan h2 { font-weight: 800; font-size: 90px; margin-bottom: 20px; color: #fff; }
+
+#main .slogan p { font-size: 22px; color: #fff; }
+
+#main .sidmenu { overflow: hidden; position: absolute; top: 40%; right: 0; }
+
+#main .sidmenu ul { width: 170px; list-style: none; margin-top: 5px; }
+
+#main .sidmenu ul .box1 { margin-top: 5px; }
+
+#main .sidmenu ul .box1 a { position: relative; }
+
+#main .sidmenu ul .box1 p { color: #2a5798; line-height: 1.4; position: absolute; top: -600%; left: 10%; }
+
+#main .sidmenu ul .box1 p span { font-size: 18px; font-weight: 600; }
+
+#main .sidmenu ul .box2 { margin-top: 5px; }
+
+#main .sidmenu ul .box2 a { position: relative; }
+
+#main .sidmenu ul .box2 a p { color: black; position: absolute; top: -70%; left: 5%; }
+
+#main .sidmenu ul .box3 { margin-top: 5px; display: -ms-grid; display: grid; -ms-grid-columns: auto 100px 1fr; grid-template-columns: auto 100px 1fr; }
+
+#main .sidmenu ul .box3 p { text-align: center; line-height: 100px; width: 65px; height: 212px; font-size: 14px; font-weight: 550; background-color: white; }
+
+#main .sidmenu ul .box3 a img { border: none; z-index: 3; margin: 0; width: 115px; height: 105px; }

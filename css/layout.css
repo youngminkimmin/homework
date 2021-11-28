@@ -2,9 +2,9 @@
 
 a { color: white; }
 
-#header { position: fixed; width: 100%; z-index: 99; }
+#header { max-width: 1920px; overflow: hidden; position: fixed; width: 100%; z-index: 99; }
 
-#header .container { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; height: 97px; color: blue; }
+#header .container { overflow: hidden; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; height: 97px; color: blue; }
 
 #header .container:hover { background-color: white; }
 
@@ -28,10 +28,50 @@ a { color: white; }
 
 #header .container .dep03 ul { width: 100%; list-style: none; display: -webkit-box; display: -ms-flexbox; display: flex; line-height: 97px; }
 
-#header .container .dep03 ul:after { content: ""; display: block; position: absolute; width: 2px; height: 20px; background-color: #000; }
+#header .container .dep03 ul li:after { content: "|"; color: #aeaeae; font-weight: 400; }
 
-#header .container .dep03 ul li a { margin-top: 20px; font-size: 18px; padding: 0 15px; }
+#header .container .dep03 ul li:after:nth-last-child(3) { display: none; }
+
+#header .container .dep03 ul li a { margin-top: 20px; font-size: 16px; padding: 0 15px; color: #aeaeae; }
 
 #header .container .dep03 ul li a:hover { color: #6b9ecc; }
 
-#header .container .etc a { border: 1px solid #aeaeae; line-height: 97px; font-size: 16px; padding: 5px 10px; }
+#header .container .etc a { color: #aeaeae; border: 1px solid #aeaeae; line-height: 97px; font-size: 14px; padding: 2px 5px; }
+
+#footer { margin-top: -5px; overflow: hidden; width: 126.5%; height: 150px; position: relative; background-color: #3e3e3e; }
+
+#footer .leftmenu { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+#footer .leftmenu .fologo { line-height: 100px; margin-left: 5px; }
+
+#footer .leftmenu .folist { display: -webkit-box; display: -ms-flexbox; display: flex; position: absolute; left: 10%; }
+
+#footer .leftmenu .folist li { line-height: 90px; list-style: none; }
+
+#footer .leftmenu .folist li:after { content: "|"; color: #aeaeae; font-weight: 400; }
+
+#footer .leftmenu .folist li:after:nth-last-child() { display: none; }
+
+#footer .leftmenu .folist li a { padding: 0 20px; }
+
+#footer .leftmenu .copy { position: absolute; top: 50%; left: 11%; }
+
+#footer .leftmenu .rightmenu { position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; right: 15%; z-index: 4; line-height: 150px; }
+
+#footer .leftmenu .rightmenu .sns { padding: 0 15px; }
+
+#footer .leftmenu .rightmenu .sns img { width: 50px; }
+
+#footer .leftmenu .rightmenu .imgbox { display: block; margin-top: 20px; }
+
+#footer .leftmenu .rightmenu .imgbox img { padding: 5px 15px; display: block; }
+
+#footer .leftmenu .rightmenu .link a { border: 1px solid #aeaeae; padding: 5px 15px; height: 40px; }
+
+#visual { position: relative; }
+
+#visual img { width: 1943px; height: 300px; }
+
+#visual .txt h1 { position: absolute; top: 50%; left: 50%; font-size: 40px; color: white; }
+
+#visual .txt p { position: absolute; right: 2%; bottom: 3%; }

@@ -1,84 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>대우건설</title>
-    <link rel="shortcut icon" href="../img/layout/favicon.ico" />
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/layout.css" />
-  </head>
-  <body>
-    <header id="header">
-      <div class="container">
-        <div class="logo">
-          <h1 class="hidden">LOGO</h1>
-          <img src="../img/layout/logo.png" alt="메인로고" />
+<? include("../include/header.html"); ?>
+
+<!--header end-->
+<div id="main">
+  <video
+    src="../img/layout/main_movie1b.mp4"
+    width="1920px"
+    loop
+    autoplay
+    muted
+  ></video>
+  <div class="slogan">
+    <h2>
+      BUILD <br />
+      TOGETHER
+    </h2>
+    <p>고객과 함께 최고의 가치를 실현하는 기업</p>
+  </div>
+  <div class="sidmenu">
+    <ul>
+      <li class="box1">
+        <a
+          href="https://www.youtube.com/channel/UCqyfKozozWFO5TjI-rJMmBA"
+          target="blank"
+          ><img src="../img/main/banner02.jpg" alt="youtube" />
+          <p>
+            Mission Challenge <br />
+            YouTube STAR★<br />
+            <span>정대우가 간다 > </span>
+          </p></a
+        >
+      </li>
+      <li class="box2">
+        <a href="http://www.prugio.com/" target="blank"
+          ><img src="../img/main/main_banner.jpg" alt="" />
+          <p>프루지오 바로가기 ></p></a
+        >
+      </li>
+      <li class="box3">
+        <p>뉴스룸</p>
+        <div class="box4">
+          <a href=""><img src="../img/main/up-btnjpg.jpg" alt="" /></a>
+          <a href=""><img src="../img/main/down_btn.jpg" alt="" /></a>
         </div>
-        <nav id="gnp">
-          <ul class="list">
-            <li>
-              <a href="">회사소개</a>
-              <ul class="dep02">
-                <li><a href="">기업정보</a></li>
-                <li><a href="">지속가능경영</a></li>
-                <li><a href="">R&D</a></li>
-                <li><a href="">투자정보</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">사업분야</a>
-              <ul class="dep02">
-                <li><a href="">토목</a></li>
-                <li><a href="">건축</a></li>
-                <li><a href="">주택</a></li>
-                <li><a href="">개발</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">홍보센터</a>
-              <ul class="dep02">
-                <li><a href="">공고</a></li>
-                <li><a href="">CI/BI</a></li>
-                <li><a href="">캐릭터</a></li>
-                <li><a href="">부로슈어</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">고객센터</a>
-              <ul class="dep02">
-                <li><a href="">FAQ</a></li>
-                <li><a href="">고객상담실</a></li>
-                <li><a href="">사이버감사실</a></li>
-                <li><a href="">상대내역관리</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <div class="dep03">
-          <ul>
-            <li><a href="">뉴스룸</a></li>
-            <li><a href="">투자정보</a></li>
-            <li><a href="">채용</a></li>
-          </ul>
-        </div>
-        <div class="etc">
-          <a href="">ENG</a>
-        </div>
-      </div>
-    </header>
-    <!--header end-->
-    <div id="main">
-      <video src="../img/layout/main_movie1b.mp4" loop autoplay muted></video>
-      <div class="slogan">
-        <h2>
-          BUILD <br />
-          TOGETHER
-        </h2>
-        <p>고객과 함께 최고의 가치를 실현하는 기업</p>
-      </div>
-      <div class="sidmenu"></div>
-    </div>
-  </body>
-</html>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- main end -->
+<? include("../include/footer.html"); ?>
